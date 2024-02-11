@@ -4,7 +4,7 @@ import './style/priceCard.css'
 const PriceCard = ({ dataObj }) => {
     return (
         <div>
-            <div class="row row-cols-1 row-cols-md-3 g-12">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 cols-md-6  g-12">
                 {dataObj.map((item, index) => {
                     return (
                         <>
